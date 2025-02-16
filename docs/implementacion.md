@@ -34,22 +34,31 @@ Sorl Thumbnail: -->
 
 #### Clona el repositorio:
 
+```bash
 git clone https://github.com/David-Luis-Mora/Lumino
-
 cd lumino
+```
 
 #### Crea un entorno virtual y activa:
 
+```bash
 python3 -m venv venv
+```
 
 #### Activar el entorno:
 
+```bash
 source venv/bin/activate
+```
 
 #### Instala las dependencias:
 
+```bash
 pip install -r requirements.txt
+```
 
 #### Levantar el proyecto:
 
+```bash
 ./manage.py runserver
+```
