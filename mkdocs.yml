@@ -6,8 +6,6 @@ theme:
     text: Merriweather Sans
     code: Red Hat Mono
   logo:  assets/logo_lumino.png
-    # icon: 
-    #   logo: assets/lumino.ico
 
   palette:
     - scheme: slate
@@ -39,7 +37,6 @@ markdown_extensions:
 
 nav:
   - Introducción: index.md
-  # - Introducción: introduccion.md
   - Requisitos del Proyecto: requisitos.md
   - Diseño del Sistema: design.md
   - Implementación: implementacion.md
@@ -70,7 +67,6 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
-
 
 plugins:
   - markmap:
