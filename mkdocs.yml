@@ -6,6 +6,8 @@ theme:
     text: Merriweather Sans
     code: Red Hat Mono
   logo:  assets/logo_lumino.png
+  features:
+    - navigation.footer
 
   palette:
     - scheme: slate
@@ -70,5 +72,11 @@ markdown_extensions:
 
 plugins:
   - markmap:
+
+extra:
+  social:
+    - icon: simple/github
+      link: https://github.com/David-Luis-Mora/Lumino 
+
 
 
