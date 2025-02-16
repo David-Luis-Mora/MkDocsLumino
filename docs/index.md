@@ -1,19 +1,20 @@
-# Welcome to MkDocs
+# Introducción :book:
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Lumino es una plataforma web diseñada para gestionar la administración académica de módulos, lecciones y calificaciones de estudiantes. La plataforma permite a los profesores gestionar sus módulos y a los estudiantes matricularse en ellos, ver sus lecciones y recibir calificaciones. Este proyecto se desarrolla con Django y tiene como objetivo proporcionar una experiencia intuitiva tanto para alumnos como para profesores.
+Propósito del Documento
 
-## Commands
+Este documento proporciona una visión general del proyecto Lumino, explica su arquitectura, implementación y cómo se pueden usar sus funcionalidades.
+Visión General del Proyecto
 
-- `mkdocs new [dir-name]` - Create a new project.
-- `mkdocs serve` - Start the live-reloading docs server.
-- `mkdocs build` - Build the documentation site.
-- `mkdocs -h` - Print help message and exit.
+## Características: :material-feature-search:
 
-## Project layout
+- Gestión de autenticación de usuarios (login/signup).
+- Gestión de módulos y lecciones.
+- Asignación de calificaciones y generación de certificados.
+- Funcionalidad de matrícula y desmatrícula en módulos.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Audiencia: :octicons-people-24:
 
-:beer:
+- Desarrolladores que participarán en el proyecto.
+- Administradores que gestionarán la plataforma.
+- Usuarios finales (alumnos y profesores).
