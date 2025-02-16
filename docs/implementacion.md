@@ -1,4 +1,4 @@
-Estructura del Código
+# Estructura del Código
 
 El proyecto está organizado en aplicaciones Django independientes:
 
@@ -9,7 +9,6 @@ users/
 subjects/
 manage.py
 settings.py
-...
 
 Cada aplicación se encarga de un conjunto de funcionalidades específicas, lo que permite que el código esté organizado y modularizado.
 Tecnologías y Herramientas
