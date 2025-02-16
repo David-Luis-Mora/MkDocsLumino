@@ -41,7 +41,7 @@ nav:
   - Introducción: index.md
   # - Introducción: introduccion.md
   - Requisitos del Proyecto: requisitos.md
-  - Diseño del Sistema: diseño.md
+  - Diseño del Sistema: design.md
   - Implementación: implementacion.md
   - Pruebas: pruebas.md
   - Despliegue: despliegue.md
