@@ -10,8 +10,7 @@ Para comenzar a usar **Lumino**, sigue estos pasos para instalar y configurar el
    Clona el repositorio del proyecto desde GitHub:
 
 ```bash
-git clone <repositorio_url>
-Crea un entorno virtual: Es recomendable usar un entorno virtual para gestionar las dependencias:
+git clone https://github.com/David-Luis-Mora/Lumino
 ```
 
 Crear el entorno con el justfile del repositorio de github y activarlo:
