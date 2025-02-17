@@ -20,14 +20,14 @@ El acceso a ciertas funcionalidades (como la edición de calificaciones) está r
 
 ```mermaid
 graph LR
-Profesor["👨‍🏫 Profesor"] --|Crear|--> Modulo["📚 Módulo"]
-Profesor --|Agregar|--> Leccion["📖 Lección"]
-Profesor --|Asignar|--> Calificacion["📝 Calificación"]
+Profesor["👨‍🏫 Profesor"] --Crear--> Modulo["📚 Módulo"]
+Profesor --Agregar--> Leccion["📖 Lección"]
+Profesor --Asignar--> Calificacion["📝 Calificación"]
 ```
 
 ```mermaid
 graph LR
-  Estudiante["🎓 Estudiante"] --|matricular|--> Modulo["📚 Módulo"]
-  Estudiante --|Ver|--> Leccion["📖 Lección"]
-  Estudiante --|Consultar|--> Calificacion["📝 Calificación"]
+  Estudiante["🎓 Estudiante"] --matricular--> Modulo["📚 Módulo"]
+  Estudiante --Ver--> Leccion["📖 Lección"]
+  Estudiante --Consultar--> Calificacion["📝 Calificación"]
 ```
